@@ -22,5 +22,6 @@ def get_factors(n):
             factors.add(n // i)  # Add its matching large pair
             
     return sorted(list(factors))
+#get a list of factors for the first and last number
 factors_first = get_factors(first_num_unproc)
 factors_last = get_factors(last_num_unproc)
