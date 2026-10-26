@@ -27,11 +27,5 @@ factors_first = get_factors(first_num_unproc)
 factors_last = get_factors(last_num_unproc)
 #to find the divisor numbers, loop over the first list, and divide each element by all of the elements in the second list,
 #add those to a new list, and repeat for every element in the first list. 
-def divisor_find(l1:list, l2:list)
-    for element in l1:
-        
-
-
-
-
+def divisor_find(l1:list, l2:list):
     return()
