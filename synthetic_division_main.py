@@ -35,3 +35,9 @@ def divisor_find(l1:list, l2:list):
             divisor_list += divisor
 
     return(divisor_list)
+def number_find(equation:str):
+    numbers_to_divide = []
+    for character in equation:
+        if character == int:
+            numbers_to_divide += character
+    return(numbers_to_divide)
